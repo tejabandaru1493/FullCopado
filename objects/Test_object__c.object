@@ -173,6 +173,18 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>pan_number__c</fullName>
+        <externalId>false</externalId>
+        <label>pan number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>number_three__c</fullName>
         <externalId>false</externalId>
         <label>number three</label>
