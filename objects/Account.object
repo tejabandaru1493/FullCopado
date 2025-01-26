@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>Close_opportunities__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Close opportunities</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Max_Opp_Name__c</fullName>
         <externalId>false</externalId>
         <label>Max Opp Name</label>
@@ -18,5 +25,12 @@
         <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Primary Contact</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
 </CustomObject>
